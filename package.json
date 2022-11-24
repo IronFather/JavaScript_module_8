@@ -1,0 +1,23 @@
+{
+  "name": "javascript_module_8",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronFather/JavaScript_module_8.git"
+  },
+  "author": "Yurii Yashchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IronFather/JavaScript_module_8/issues"
+  },
+  "homepage": "https://github.com/IronFather/JavaScript_module_8#readme",
+  "dependencies": {
+    "joi": "^17.7.0",
+    "shortid": "^2.2.16"
+  }
+}
