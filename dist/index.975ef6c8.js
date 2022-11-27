@@ -537,37 +537,7 @@ var _trikozaky = require("../js/trikozaky");
 var _trikozakyDefault = parcelHelpers.interopDefault(_trikozaky);
 console.log((0, _trikozakyDefault.default)("dflfbgs"));
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/trikozaky":"3tHU6"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"3tHU6":[function(require,module,exports) {
+},{"../js/trikozaky":"3tHU6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3tHU6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _joi = require("joi");
@@ -579,7 +549,7 @@ function validatedPassword(password) {
 }
 exports.default = validatedPassword;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","joi":"cTdtO"}],"cTdtO":[function(require,module,exports) {
+},{"joi":"cTdtO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cTdtO":[function(require,module,exports) {
 !function(e, t) {
     module.exports = t();
 }(self, ()=>{
@@ -7160,6 +7130,36 @@ exports.default = validatedPassword;
         return e[s](a, a.exports, r), a.exports;
     }(5107);
 });
+
+},{}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["ShInH","8lqZg"], "8lqZg", "parcelRequire21aa")
 
